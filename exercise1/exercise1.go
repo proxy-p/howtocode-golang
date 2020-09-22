@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	x := 42
+	x := 142
 	y := "James Bond"
 	z := true
 	fmt.Println(x, y, z)
