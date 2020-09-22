@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+//Using the short declaration operator to ASSIGN VALUES to 	VARIABLES
+// x,y,z
+
 func main() {
 	x := 142
 	y := "James Bond"
