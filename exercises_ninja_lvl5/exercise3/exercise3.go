@@ -4,11 +4,13 @@ import (
 	"fmt"
 )
 
+//Creating a TYPE of VEHICLE with an underlying TYPE of STRUCT
 type vehicle struct {
 	doors int
 	color string
 }
 
+//Creating new TYPE of TRUCK & SEDAN with TYPE VEHICLE embeded
 type truck struct {
 	vehicle
 	fourWheel bool
@@ -20,6 +22,7 @@ type sedan struct {
 }
 
 func main() {
+	//Using COMPOSITE LITERAL to create a VALUE of TYPE TRUCK & SEDAN
 	t := truck{
 		vehicle: vehicle{
 			doors: 2,

@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+//Creating a TYPE which will have an underlying type of STRUCT
 type person struct {
 	first      string
 	last       string
@@ -11,6 +12,7 @@ type person struct {
 }
 
 func main() {
+	//Creating 	two VALUES of TYPE 'PERSON'
 	p1 := person{
 		first: "James",
 		last:  "Bond",
@@ -31,8 +33,10 @@ func main() {
 		},
 	}
 
+	//Printing TYPE 'PERSON' VALUES
 	fmt.Println(p1.first)
 	fmt.Println(p1.last)
+	//RANGE over 'PERSON' favFlavors
 	for i, v := range p1.favFlavors {
 		fmt.Println(i, v)
 	}

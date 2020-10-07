@@ -6,6 +6,7 @@ import (
 
 func main() {
 
+	//Creating ANONYMOUS STRUCT
 	s := struct {
 		first     string
 		friends   map[string]int
