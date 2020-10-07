@@ -31,14 +31,17 @@ func main() {
 		},
 	}
 
+	//Creating a MAP of TYPE 'PERSON' with the key of LAST
 	m := map[string]person{
 		p1.last: p1,
 		p2.last: p2,
 	}
 
+	//RANGE over MAP of TYPE 'PERSON'
 	for _, v := range m {
 		fmt.Println(v.first)
 		fmt.Println(v.last)
+		//RANGE over 'favFlavors'
 		for i, val := range v.favFlavors {
 			fmt.Println(i, val)
 		}
