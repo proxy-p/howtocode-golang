@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	//Using DEFER to show a DEFFERED FUNC was ran AFTER the FUNC containing it exits
 	defer foo()
 	fmt.Println("Hello, playground")
 }

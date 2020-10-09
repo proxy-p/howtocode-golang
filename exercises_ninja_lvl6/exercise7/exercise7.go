@@ -5,6 +5,8 @@ import (
 )
 
 var x int
+
+//ASSIGNING a VARIABLE as a TYPE FUNC
 var g func()
 
 func main() {
@@ -21,7 +23,9 @@ func main() {
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)
 
+	//ASSINGING FUNC to a VARIABLE
 	g = f
+	//Calling the FUNC
 	g()
 	fmt.Printf("this is g %T\n", g)
 
