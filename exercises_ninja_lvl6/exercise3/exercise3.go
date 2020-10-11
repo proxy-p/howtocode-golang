@@ -14,5 +14,6 @@ func foo() {
 	defer func() {
 		fmt.Println("foo DEFER ran")
 	}()
+	//This FUNC runs before the FIRST one
 	fmt.Println("foo ran")
 }
